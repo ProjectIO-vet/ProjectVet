@@ -5,9 +5,20 @@
   box-sizing: border-box;
 }
 
-/* Odrobina odstępu dla body */
+/* Styl bazowy body */
 body {
   font-family: Arial, sans-serif;
-  background-color: #fafafa;
+  background-color: #f5f5f5;
   color: #333;
+}
+
+/* Linki (usuwa podkreślenie, ustawia kolor) */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Kontener dla całej aplikacji, aby elementy nie przylegały do krawędzi */
+#root {
+  min-height: 100vh;
 }
